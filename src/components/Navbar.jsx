@@ -15,7 +15,7 @@ const Example = props => {
   const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
-    <div>
+    <div className={"container"}>
       <Navbar color="faded" light>
         <NavbarBrand href="/" className="mr-auto">
           reactstrap
