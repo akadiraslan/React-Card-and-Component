@@ -18,7 +18,7 @@ const Example = props => {
     <div className={"container"}>
       <Navbar color="faded" light>
         <NavbarBrand href="/" className="mr-auto">
-          reactstrap
+          React Card
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>
@@ -27,9 +27,7 @@ const Example = props => {
               <NavLink href="/components/">Components</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                GitHub
-              </NavLink>
+              <NavLink href="https://github.com/akadiraslan">GitHub</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
