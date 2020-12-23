@@ -14,7 +14,7 @@ export default function App() {
 
   return (
     <div>
-      <div>
+      <div className={"mb-3"}>
         <Navbar />
       </div>
       <div className="container">
