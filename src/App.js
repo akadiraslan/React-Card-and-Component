@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 
 export default function App() {
   const Products = PRODUCTS.map(item => (
-    <div className={`col-sm-6 mb-2`}>
+    <div key={item.id} className={`col-sm-6 mb-2`}>
       <CardComp item={item} />
     </div>
   ));
